@@ -1,0 +1,364 @@
+.main-list{
+    display: flex;
+    /* align-items: flex-start; */
+    gap: 40px;
+}
+
+
+
+
+
+
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  
+    text-transform: unset !important;
+}
+
+
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+      
+        
+    text-transform: unset !important;
+}
+
+
+.list-item{
+    cursor:pointer !important;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color: white; */
+}
+
+
+.word{
+color: var(--grey-g-2, #8097B1);
+/* Body/B1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-top: 50px !important;
+}
+
+.word1{
+    color: var(--grey-g-2, #8097B1);
+    /* Body/B1 */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+ 
+    margin-top: 20px !important;
+    }
+
+.Redesign{
+    color: var(--grey-g-1, #2E384D);
+text-align: center;
+/* Subheading/S2 */
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700 !important;
+margin-top: 30px !important;
+}
+.jane{
+    color: var(--grey-g-1, #2E384D);
+/* Body/B1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-top: 20px !important;
+}
+
+.jane1{
+    color: var(--grey-g-1, #2E384D);
+/* Body/B1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-top: 20px !important;
+}
+.Time{
+    color: white;
+/* Body/B1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-top: 30px !important;
+
+}
+.Time1{
+    background-color: #4CAF50;
+width: 130px;
+
+border-radius: 4px;
+
+
+}
+
+.Tak{
+ color: var(--grey-g-1, #2E384D) !important;
+
+/* Heading/H2 */
+font-family: Montserrat;
+font-size: 24px !important;
+font-style: normal;
+font-weight: 700 !important;
+/* margin-top: 50px !important; */
+margin-left: 30px !important;
+}
+
+
+.Team{
+   
+color: var(--grey-g-1, #2E384D);
+/* Body/B1 */
+font-family: Poppins !important;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-top:10px !important;
+ margin-left:30px !important;
+}
+
+.card111{
+    border-radius: 16px !important;
+background: var(--shades-of-primary-s-1, #2F5247);
+
+}
+
+
+
+.animated-border-shadow {
+    /* width: 200px;
+    height: 200px; */
+    background-color: #fff;
+    /* border: 2px solid #333; */
+    border-radius: 10px;
+    position: relative;
+    color: #8A2100 !important;
+    animation: borderShadow 2s infinite alternate;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderShadow {
+    0% {
+        
+      box-shadow: 0 0 5px #ff5733;
+    }
+    100% {
+      box-shadow: 0 0 20px #ff5733;
+    }
+  }
+
+.myDIV {
+  /* width: 100px;
+  height: 100px; */
+  background-color: coral;
+  color: white;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  10% {box-shadow: 10px 10px 10px gray;}
+}
+
+.blink {
+
+    @keyframes blink { 
+        50% { border-color: #ff0000; } 
+     }
+     table{ /*or other element you want*/
+         animation-name: blink ;
+         animation-duration: .5s ;
+         animation-timing-function: step-end ;
+         animation-iteration-count: infinite ;
+         animation-direction: alternate ;
+     }
+}
+
+.Pending{
+    animation: blinker 3s step-end infinite !important; 
+color: #8A2100 !important;
+
+/* Subheading/S1 */
+font-family: Open Sans !important;
+font-size: 20px !important;
+font-style: normal;
+font-weight: 600 !important;
+background-color: #FCBCA8 !important;
+height: 40px  !important;
+width:280px !important
+/* line-height: 26px; 130% */
+}
+
+.dev{
+    color: var(--grey-g-1, #2E384D) !important;
+/* Subheading/S2 */
+font-family: Open Sans !important;
+font-size: 18px !important;
+font-style: normal;
+font-weight: 600;
+/* margin-top:20px !important; */
+line-height: 23.4px; /* 130% */
+/* background-color: #FCBCA8 !important; */
+/* height: 90px  !important; */
+width:280px !important
+}
+
+
+.View{
+    color:white!important;
+/* Subheading/S2 */
+font-family: Open Sans !important;
+font-size: 18px !important;
+font-style: normal;
+font-weight: 600;
+/* margin-top:20px !important; */
+background-color: #2F5247 !important;
+height: 40px  !important;
+width:280px !important
+}
+
+.Tasks{
+    color: var(--grey-g-1, #2E384D) !important ;
+/* Body/B1 */
+font-family: Poppins;
+font-size: 16px !important;
+font-style: normal;
+font-weight: 400 !important;
+line-height: 24px; /* 150% */
+}
+
+
+.pulse {
+    width: 10px;
+    height: 10px;
+    border: 5px solid #f7f14c;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #716f42;
+    z-index: 10;
+    position: absolute;
+  }
+  
+
+  
+  .circle {
+  
+    border-radius: 50%;
+    border: 8px solid #DDDEE1;
+    position: absolute;
+   margin-top: -2%;
+    margin-left: 80px !important;
+    border:1px solid red !important;
+  }
+  
+  @keyframes circle {
+      from {
+          transform: scale(0.2)
+      }
+      to {
+          transform: scale(0.6)
+      }
+  }
+  
+  .one {
+    animation: circle 3s infinite linear;
+  }
+  
+
+  
+
+  
+
+  .userrr{
+    color: var(--grey-g-1, #2E384D) !important;
+/* Subheading/S1 */
+font-family: Open Sans;
+font-size: 20px !important;
+font-style: normal;
+font-weight: 500 !important;
+line-height: 26px; /* 130% */
+  }
+
+  .userrr1{
+color:#c2ccd8;
+
+
+      color: var(--grey-g-1, #2E384D) !important;
+/* Subheading/S1 */
+font-family: Open Sans;
+font-size: 16px !important;
+font-style: normal;
+font-weight: 500 !important;
+line-height: 26px; /* 130% */
+  }
+
+  .des{
+    color: var(--grey-g-1, #2E384D) !important;
+text-align: center;
+/* Body/B1 */
+font-family: Poppins !important;
+font-size: 16px !important;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+  }
+
+.btn-primary{
+    color: white !important;
+    gap: 19px;
+}
+
+/* .btn-primary:focus{
+    background-color: red !important;
+} */
+
+.tab-act{
+    padding: 8px;
+    color:white;
+}
+.tab-act:focus{
+    background-color: white !important;
+    border-radius: 50px;
+    color: #005555;
+}
+
+
+
+ /* .btn-primary:focus{
+    color:#055 !important;
+    border-radius: 20px;
+    background: #FFF;
+    width:148px !important;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.50) !important;
+    
+   
+    
+} */
+/* .btn-primary.active, .btn-primary:active{
+    color:#055 !important;
+    border-radius: 20px;
+    background: #FFF;
+    width:148px !important;
+    
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.50) !important;
+    border-radius: 20px;
+    background: #FFF;
+    width:148px !important;
+    
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.50) !important;
+} */
+
